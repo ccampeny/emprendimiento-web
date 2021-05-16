@@ -1,0 +1,73 @@
+//Primer Color Scheme
+$white: #FFFFFF;
+$gray: #CCCCCC;
+$dark-gray: #444444;
+
+//Segundo Color Scheme
+$black: #000000;
+$sable: #060606;
+$charcoal: #2E1503;
+
+//Tercer Color Scheme
+$tangerine: #FFAF6D;
+$orange: #FFA500;
+
+// Font Family
+$poppins: 'Poppins', sans-serif;;
+$ubuntu: 'Ubuntu', sans-serif;;
+
+// Font Weight Poppins and Ubuntu
+$poppins-regular: 400;
+$poppins-bold: 700;
+$ubuntu-regular: 400;
+$ubuntu-bold: 700;
+
+// Font Size
+$xxxxx-large: 50px;
+$xxxx-large: 45px;
+$xxx-large: 40px;
+$xx-large: 35px;
+$x-large: 30px;
+$large: 20px;
+$medium: 16px;
+$small: 14px;
+$x-small: 12px;
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+/*@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }*/
+
+$min-xs: 1px;
+$min-sm: 576px;
+$min-md: 768px;
+$min-lg: 992px;
+$min-xl: 1200px;
+$min-xxl: 1400px;
+
+$max-xs: 575px;
+$max-sm: 767px;
+$max-md: 991px;
+$max-lg: 1199px;
+$max-xl: 1399px;
+$max-xxl: 1800px;
+
+$breakpoints: (
+    'xs' : (max-width: $max-xs),
+    'sm' : (max-width: $max-sm),
+    'md' : (max-width: $max-md),
+    'lg' : (max-width: $max-lg),
+    'xl' : (max-width: $max-xl),
+    'xxl': (max-width: $max-xxl)
+
+) !default;

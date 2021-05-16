@@ -1,0 +1,40 @@
+footer {
+    background-color: $black;
+    font-family: $poppins;
+    font-weight: $poppins-regular;
+    font-size: $small;
+    color: $white;
+    text-align: center;
+    padding: 25px;
+
+}
+
+.footer-2 {
+    display: flex;
+    justify-content: center;
+
+    @include respond-to('sm') {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.form__subscribe {
+    &-mail {
+        border-radius: 5px;
+        width: 60%;
+    } 
+
+    &-mail:focus {
+        background-color: $orange;
+    }
+
+    &-send {
+        border-radius: 5px; 
+        background-color: $orange;
+    }
+
+    &-send:hover {
+        background-color: $gray;
+    }
+}

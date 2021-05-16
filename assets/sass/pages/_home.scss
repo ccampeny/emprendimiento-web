@@ -1,0 +1,83 @@
+.border-box {
+    border: 1px solid $black;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 10px;
+}
+
+.border-box2 {
+    border: 1px solid $gray;
+}
+
+.border-box3 {
+    border: 1px solid $black;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 10px;
+}
+
+@media (min-width: $min-md) {
+    .border-box3 {
+        border: 1px solid $black;
+        box-sizing: border-box;
+        padding: 20px;
+        margin: 10px;
+        height: 1063px;
+    }
+}
+
+.img-2 {
+    width: 100%;
+    padding: 5px;
+}
+
+.img-3 {
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid $black;
+}
+
+.flex-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.separate {
+    padding-top: 10px;
+}
+
+.icons {
+    padding-left: 12px;
+    padding-bottom: 10px;
+}
+
+.icons-2 {
+    position: relative;
+    top: -10px;
+}
+
+.huincha-curso {
+    background-color: $dark-gray;
+    font-family: $poppins;
+    font-weight: $poppins-bold;
+    color: $white;
+    text-align: center;
+    padding: 5px;
+}
+
+ul {
+    list-style-type:circle;
+    position: relative;
+    left: 30px;
+}
+
+li {
+    font-family: $poppins;
+}
+
+.svg-animation {
+    width: 30%;
+    margin: auto;
+    padding-top: 40px;
+}

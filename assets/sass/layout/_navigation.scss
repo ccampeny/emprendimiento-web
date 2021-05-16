@@ -1,0 +1,33 @@
+.main-logo {
+    width: 2.5rem;
+    margin-right: 10px;
+}
+
+.nav__color {
+    background-color: $black;
+    color: $white;
+
+    &-texto {
+        color: $white;
+        padding-right: 30px;
+    }
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: transparent;
+
+    &:hover {
+        color: $orange;
+    }
+}
+
+.nav__color-texto {
+    font-family: $poppins;
+    font-weight: $poppins-bold;
+    font-size: $medium;
+    color: $white;
+
+    &:hover {
+        color: $orange !important;
+    }
+}

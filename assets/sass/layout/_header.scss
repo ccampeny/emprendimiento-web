@@ -1,0 +1,13 @@
+.img-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.img-header {
+    width: 60%;
+
+    @include respond-to('md') {
+        width: 100%;
+    }
+}
