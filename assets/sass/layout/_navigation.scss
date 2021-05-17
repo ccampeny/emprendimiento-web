@@ -11,6 +11,12 @@
         color: $white;
         padding-right: 30px;
     }
+
+    &-texto {
+        @include respond-to('sm') {
+        margin: 5px 0 5px;
+    }
+    }
 }
 
 .navbar-dark .navbar-toggler {

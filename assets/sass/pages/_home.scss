@@ -80,4 +80,8 @@ li {
     width: 30%;
     margin: auto;
     padding-top: 40px;
+
+    @include respond-to('sm') {
+        width: 50%;
+    }
 }
